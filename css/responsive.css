@@ -1,0 +1,68 @@
+@media only screen and (max-width: 1240px) {
+    .msg h3
+    {
+        width: 20%;
+    }
+    .msg p
+    {
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 917px) {
+    .msg-second p
+    {
+        top: 70px;
+    }
+}
+
+
+@media only screen and (max-width: 680px) {
+    .group
+    {
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .game-1
+    {
+        grid-row: 2;
+        grid-column: 1
+    }
+    .game-2
+    {
+        grid-row: 3;
+        grid-column: 1
+    }
+    .game-3
+    {
+        grid-row: 4;
+        grid-column: 1
+    }
+    .game-4
+    {
+        grid-row: 5;
+        grid-column: 1
+    }
+    .game-5
+    {
+        grid-row: 6;
+        grid-column: 1
+    }
+}
+
+
+@media only screen and (max-width: 630px) {
+    .polufinale img
+    {
+        margin-top: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 310px) {
+    .polufinale img
+    {
+        margin-top: 100px;
+    }
+}

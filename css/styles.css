@@ -1,0 +1,196 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    background-color: #fff;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main
+{
+    margin-left: 15px;
+    border-left: 3px solid brown;
+}
+
+header img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.rezultati
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.rez
+{
+    width: 100%;
+    transition: opacity .4s;
+}
+
+.rez:hover
+{
+    opacity: 0.7;
+}
+
+.group
+{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.game-1, .game-2, .game-3
+{
+    grid-row: 2;
+}
+
+.game-4
+{
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.game-5
+{
+    grid-row: 3;
+    grid-column: 3;
+}
+
+.group h1, .game-1 h1, .game-2 h1, .game-3 h1, .game-4 h1, .game-5 h1
+{
+    padding: 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: brown;
+}
+
+.spacer
+{
+    height: 100px;
+}
+
+.group ol li
+{
+    width: 150px;
+    height: 40px;
+    background-color: brown;
+    margin: 2px 0;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+.group ol
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-1
+{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.team-2
+{
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.team-3
+{
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.team-4
+{
+    grid-row: 4;
+    grid-column: 2;
+}
+
+.result 
+{
+    background-color: rgb(25, 25, 94);
+    padding: 10px 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.result h2
+{
+    color: goldenrod;
+}
+
+.msg h3
+{
+    background-color: brown;
+    padding: 10px 0;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.msg p
+{
+    background-color: rgb(25, 25, 94);
+    padding: 10px;
+    width: 1050px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.msg-first
+{
+    margin-left: 10px;
+}
+
+.msg-second
+{
+    position: relative;
+}
+
+.msg-second h3
+{
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
+.msg-second p
+{
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 0;
+}
+
+.polufinale
+{
+    text-align: center;
+}
+
+.polufinale img
+{
+    border-radius: 15px;
+    width: 60%;
+    height: auto;
+}
